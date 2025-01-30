@@ -350,7 +350,9 @@ div.Paboutme{
     .project-card {
         width: 80%; /* Ocupa quase toda a largura da tela */
     }
-      
+      .experience_4 h3{
+          padding: 10px;
+      }
 }
   
 
