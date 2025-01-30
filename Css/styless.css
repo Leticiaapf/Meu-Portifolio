@@ -30,6 +30,21 @@ a:hover{
     justify-content:space-between;
 
 }
+
+
+@media (max-width: 768px) {
+    #nav-links {
+        flex-direction: column; /* Empilhar os itens */
+        align-items: center;
+        gap: 1rem;
+    }
+
+    #navintro {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 #nav-links{
     display: flex;
     gap: 2.5rem;
@@ -63,6 +78,12 @@ img{
 img:hover {
     box-shadow: 2px 2px 2px 1px#545461;
   }
+@media (max-width: 768px) {
+    img {
+        max-width: 300px; /* Reduz o tamanho em telas menores */
+        height: auto;
+    }
+}
 
   div.aboutme{
     padding-top: 50px;
@@ -105,6 +126,17 @@ div.bnt-container{
     justify-content: center;  /*fez o bottons ir para centro*/
     gap:10px
 
+}
+
+@media (max-width: 768px) {
+    .bnt-container {
+        flex-direction: column; /* Empilhar os botões */
+        align-items: center;
+    }
+
+    .bnt {
+        width: 80%; /* Fazer com que ocupem mais espaço */
+    }
 }
 
 
@@ -305,13 +337,20 @@ div.Paboutme{
     color: #000;
     font-weight: bold;
   }
-  
+
   @media (max-width: 768px) {
-    .experience_4 ul {
-      flex-direction: column; /* Empilha os cartões em telas menores */
-      gap: 15px;
+    .experience_4 ul,
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
     }
-  }
+
+    .experience_4 ul li,
+    .project-card {
+        width: 80%; /* Ocupa quase toda a largura da tela */
+    }
+}
+  
 
   #projects {
     text-align: center;
@@ -417,13 +456,16 @@ div.Paboutme{
 
 /* Responsividade para telas menores */
 @media (max-width: 768px) {
-    .projects-container {
-        flex-direction: column;
-        align-items: center;
+    h1 {
+        font-size: 1.8rem;
     }
 
-    .project-card {
-        width: 90%;
+    .myname {
+        font-size: 3cap; /* Reduz para não ficar grande demais */
+    }
+
+    .profession {
+        font-size: large;
     }
 }
 
