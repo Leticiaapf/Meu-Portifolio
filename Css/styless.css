@@ -338,6 +338,45 @@ div.Paboutme{
     font-weight: bold;
   }
 
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    .experience_4 ul {
+        gap: 15px;
+    }
+
+    .experience_4 ul li {
+        width: 250px;
+        padding: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .experience_4 ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience_4 ul li {
+        width: 90%; /* Ocupar quase toda a largura da tela */
+        padding: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .experience_3 h3 {
+        font-size: 1.2rem;
+    }
+
+    .experience_4 ul li {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .experience_4 ul li p {
+        font-size: 0.9rem;
+    }
+}
  
   
 
