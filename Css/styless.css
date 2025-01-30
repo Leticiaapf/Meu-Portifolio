@@ -348,7 +348,7 @@ div.Paboutme{
 
     .experience_4 ul li,
     .project-card {
-        width: 100%; /* Ocupa quase toda a largura da tela */
+        width: 80%; /* Ocupa quase toda a largura da tela */
     }
       .experience_4 h3{
           font-size: 1.3rem;
