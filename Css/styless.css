@@ -1,4 +1,4 @@
-*{
+ *{
     padding: 0;
     margin: 0;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -340,7 +340,7 @@ div.Paboutme{
 
   @media (max-width: 768px) {
     .experience_4 {
-        display: flex;
+     
         flex-direction: column;
         align-items: center;
     }
@@ -350,7 +350,7 @@ div.Paboutme{
         width: 100%;  
         display: flex;
         flex-direction: column;
-       
+         
     }
 
     .experience_4 ul li {
