@@ -489,3 +489,17 @@ div.Paboutme{
     color: #131212;
 }
 
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .myname {
+        font-size: 3cap; /* Reduz para não ficar grande demais */
+    }
+
+    .profession {
+        font-size: large;
+    }
+}
