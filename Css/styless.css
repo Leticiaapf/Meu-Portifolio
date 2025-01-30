@@ -1,0 +1,449 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+div{
+    padding: 10px;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #444;
+    transition: 0.4s;
+}
+
+a:hover{
+    color: #00008B;
+    
+    
+
+}
+
+
+#navintro{
+    padding: 1.5rem 2.5rem;
+    display: flex;
+    justify-content:space-between;
+
+}
+#nav-links{
+    display: flex;
+    gap: 2.5rem;
+}
+#nav-links li {
+    transition: transform 0.3s ease; /* Suaviza a transformação */
+}
+
+#nav-links li:hover {
+    transform: scale(1.5); /* Aumenta o tamanho do item ao passar o mouse */
+}
+
+
+#navpresentation{
+    padding: 1.5rem 2.5rem;
+}
+
+img{
+    display: flex;
+    margin: auto;
+    max-width: 100;
+    width: 100%;
+    max-width: 500px;
+     height: 500px;
+     border-radius: 50%;
+    /*outra forma de arredondar a imagem :  clip-path: circle(50%);  */
+    object-fit:cover;
+  }
+
+
+img:hover {
+    box-shadow: 2px 2px 2px 1px#545461;
+  }
+
+  div.aboutme{
+    padding-top: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  p{
+    padding: 10px;
+    
+    }
+
+  h1{
+    padding: 5px;
+  
+  }
+
+  div.hello{
+    font-size:2cap;
+    color: #444;
+   
+  }
+
+  div.myname{
+    font-size:4cap;
+    
+  }
+
+  div.profession{
+    font-size: x-large;
+    color: #444;
+  }
+
+
+div.bnt-container{
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;  /*fez o bottons ir para centro*/
+    gap:10px
+
+}
+
+
+.bnt{
+    flex:1%;
+    
+    display: inline-block;
+    padding: 0px 20px;  /* Ajusta o espaçamento interno horizontal */
+    
+    font-size: 15px; 
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(255, 255, 255); 
+    background-color: #413f3f;
+    border: none;
+   border-radius: 25px;
+   justify-content: center;
+   font-weight: bold;
+    transition: 0.1s;
+    margin: 10px 0px;
+    box-shadow: 0 9px #292828;
+    width: auto;  /* permite largura dinâmica*/ 
+    height: 50px;  /* fez ter a mesma altura*/ 
+
+}
+    
+ 
+
+     
+  .bnt:hover{
+    background-color:#FFFF;
+    color: #111111;
+    
+   
+}
+.bnt:active{
+    background-color: rgb(178, 115, 236);
+}
+
+/*tive mais dificuldade aqui*/
+.links {
+    text-align: center; /* Centraliza todo o container */
+}
+
+.list-links ul {
+    display: flex; /* Define o layout flexível para os itens da lista */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    list-style: none; /* Remove os marcadores padrão da lista */
+    padding: 0; /* Remove o padding da lista */
+    margin: 0; /* Remove a margem da lista */
+}
+
+.list-links ul li {
+    margin: 0 10px; /* Adiciona espaço horizontal entre os ícones */
+}
+
+.list-links ul li a i {
+    font-size: 40px; /* Ajusta o tamanho dos ícones */
+}
+.list-links ul li a i:hover {
+    transform: scale(1.2); /* Aumenta o ícone ao passar o mouse */
+
+    
+}
+
+.learn-1{
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.learn-p{
+    font-size:larger;
+    color: #413f3f;
+}
+
+.learn-h1{
+    font-size: 3cap;
+
+}
+
+.listaboutme{
+    text-align: center;
+   
+  
+}
+.list-aboutme ul {
+    display: flex; /* Define layout flexível */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 20px; /* Adiciona espaçamento entre os itens */
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding */
+    margin: 0; /* Remove a margem */
+    flex-wrap: wrap; /* Garante que os itens se ajustem em telas menores */
+}
+
+
+.listlinksaboutme ul li {
+    background-color: #f9f9f9; /* Fundo claro semelhante ao exemplo */
+    border: 2px solid #ddd; /* Adiciona borda semelhante ao exemplo */
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 28px; /* Adiciona espaço interno */
+    width: 200px; /* Define uma largura fixa */
+    text-align: center; /* Centraliza o texto e ícones */
+    box-shadow: 4px 4px 6px 6px rgba(19, 19, 19, 0.1); /* Adiciona uma leve sombra */
+    display: flex; /* Layout flexível */
+    flex-direction: column; /* Alinha itens verticalmente */
+    align-items: center; /* Centraliza itens horizontalmente */
+    justify-content: center; /* Centraliza itens verticalmente */
+}
+
+.listlinksaboutme ul li i {
+    font-size: 40px; /* Ajusta o tamanho do ícone */
+    color: #333; /* Define a cor do ícone */
+    margin-bottom: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+.listlinksaboutme ul li h3 {
+    font-size: 18px; /* Define o tamanho do título */
+    color: #000; /* Define a cor do título */
+    font-weight: bold; /* Deixa o texto em negrito */
+    margin-bottom: 8px; /* Espaçamento abaixo do título */
+}
+
+.listlinksaboutme ul li p {
+    font-size: 14px; /* Define o tamanho do texto */
+    color: #555; /* Define a cor do texto */
+    margin: 0; /* Remove margens extras */}
+
+div.Paboutme{
+    padding: 20px;
+    text-align: flex;
+    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.exp-3{
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.exp-p{
+    font-size:larger;
+    color: #413f3f;
+}
+
+.exp-h1{
+    font-size: 3cap;
+
+}
+
+
+.experience_3 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+  }
+  
+  .experience_3 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #242323;
+  }
+  
+  .experience_4 ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os cartões */
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap; /* Adapta para telas menores */
+  }
+  
+  .experience_4 ul li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px 6px rgba(19, 19, 19, 0.1);
+    width: 280px; /* Largura fixa dos cartões */
+    padding: 60px;
+    text-align: center;
+  }
+  
+  .experience_4 ul li p {
+    font-size: 1rem;
+    color: #000000;
+    margin:10px 0;
+    line-height: 1.5;
+   
+  }
+  
+  .experience_4 ul li h3 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .experience_4 ul {
+      flex-direction: column; /* Empilha os cartões em telas menores */
+      gap: 15px;
+    }
+  }
+
+  #projects {
+    text-align: center;
+}
+
+
+.proj-p{
+    font-size:larger;
+    color: #413f3f;
+}
+
+.proj-h{
+    font-size: 3cap;
+
+}
+
+
+
+
+
+
+/* Estilização da seção principal */
+#projects {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Texto inicial */
+.proj-p p {
+    font-size: 1rem;
+    color: #666;
+    margin: 0;
+}
+
+.proj-h h1 {
+    font-size: 2.5rem;
+    margin: 10px 0 20px;
+    color: #333;
+}
+
+/* Container dos projetos */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 30px;
+    flex-wrap: wrap; /* Adicionado para responsividade */
+}
+
+/* Estilização de cada cartão de projeto */
+.project-card {
+    background: #faf7f7;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagem do projeto */
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Título do projeto */
+.project-card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #0a0a0a;
+}
+
+/* Botões */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+
+
+#contact {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Texto inicial */
+.contact-p p {
+    font-size: 1rem;
+    color: #666;
+    margin: 0;
+}
+
+.contact-h h1 {
+    font-size: 2.5rem;
+    margin: 10px 0 20px;
+    color: #131212;
+}
+
