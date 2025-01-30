@@ -347,15 +347,15 @@ div.Paboutme{
 
     .experience_4 ul {
         padding: 0;
-        width: 100%; /* Garante que o container ocupe toda a largura */
+        width: 100%;  
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .experience_4 ul li {
-        width: 90%; /* Ajusta a largura dos cards */
-        max-width: 350px; /* Evita que fiquem muito grandes */
+        width: 90%; 
+        max-width: 300px; 
     }
 
     .experience_4 h3 {
