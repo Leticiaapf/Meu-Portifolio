@@ -25,6 +25,7 @@ a:hover{
 
 
 #navintro{
+    position: static;
     
     padding: 1.5rem 2.5rem;
     display: flex;
