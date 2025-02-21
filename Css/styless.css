@@ -25,7 +25,7 @@ a:hover{
 
 
 #navintro{
-    position: static;
+    
     
     padding: 1.5rem 2.5rem;
     display: flex;
@@ -36,7 +36,7 @@ a:hover{
 
 @media (max-width: 768px) {
     #nav-links {
-        
+        position: static;
         flex-direction: column; /* Empilhar os itens */
         align-items: center;
         gap: 1rem;
